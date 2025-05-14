@@ -1,0 +1,298 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0; /* Убираем отступы у body */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  height: 100vh;
+  width: 100%;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; /* Добавляем жирность для заголовка */
+}
+.text-overlay h1 {
+  font-weight: 700; /* Делаем заголовок жирным */
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Добавляем шрифт body */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  height: 100vh;
+  width: 100%;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.text-overlay h1 {
+  font-weight: 700;
+  font-size: 2.5em; /* Увеличиваем размер заголовка */
+}
+
+.text-overlay p {
+  font-weight: normal;
+  font-size: 1.1em; /* Увеличиваем размер параграфа */
+}
+
+.company-name {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.top-right-images {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+}
+
+.top-right-images img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+}
+
+.contact-button {
+  background-color: #FF8C00;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.white-background {
+  background-color: white;
+  padding: 50px;
+}
+
+.white-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.white-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap; /* Добавляем перенос изображений на мобильных устройствах */
+}
+
+.white-images img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  max-width: 100%; /* Делаем изображения адаптивными */
+}
+
+.white-content h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.services {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+
+.service img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.top-right-links {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+}
+
+.top-right-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.top-right-links a:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contacts {
+  background-color: #e0e0e0;
+  padding: 50px;
+  text-align: center;
+}
+
+.contacts h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.contacts p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 768px) {
+  .text-overlay h1 {
+    font-size: 2em;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+  }
+
+  .service {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .white-images img {
+    width: 100%;
+    height: auto;
+  }
+
+  .top-right-links {
+    flex-direction: column;
+    left: 10px;
+  }
+
+  .top-right-links a {
+    margin: 5px 0;
+  }
+
+  .contacts {
+    padding: 20px;
+  }
+
+  .services-container {
+    flex-direction: column; /* Услуги в столбик */
+  }
+
+  .service {
+    width: 100%; /* Услуги на всю ширину */
+    margin: 20px 0; /* Отступы между услугами */
+  }
+
+  .company-name {
+    position: static; /* Убираем абсолютное позиционирование */
+    transform: none; /* Убираем трансформацию */
+    margin-top: 20px; /* Отступ сверху */
+    text-align: center; /* Выравнивание по центру */
+  }
+
+  .top-right-images {
+    position: static; /* Убираем абсолютное позиционирование */
+    flex-direction: row; /* Изображения в строку */
+    justify-content: center; /* Выравнивание по центру */
+    margin-bottom: 10px; /* Отступ снизу */
+  }
+}
